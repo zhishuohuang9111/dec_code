@@ -1,0 +1,12 @@
+
+
+
+git init
+
+git add .
+
+git commit -m "commit file"
+
+git remote add origin git@github.com:zhishuohuang9111/dec_code.git
+
+git push -u origin master
