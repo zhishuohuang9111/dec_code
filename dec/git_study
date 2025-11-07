@@ -14,3 +14,17 @@ git push -u origin master
 git pull origin master --rebase  // 先拉取, 再进行提交
 
 git push -u origin master
+
+git status // 查看当前状态
+
+git add .  // 将改动 添加到 暂存区
+
+git add dec/git_study
+
+git commit -m "更新 说明"
+
+git pull origin master --rebase  // 先同步远程
+
+git push -u origin master   // 再进行提交
+
+
