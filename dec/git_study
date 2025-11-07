@@ -10,3 +10,7 @@ git commit -m "commit file"
 git remote add origin git@github.com:zhishuohuang9111/dec_code.git
 
 git push -u origin master
+
+git pull origin master --rebase  // 先拉取, 再进行提交
+
+git push -u origin master
